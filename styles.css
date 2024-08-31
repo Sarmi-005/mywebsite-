@@ -1,0 +1,73 @@
+/* Basic reset for margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar */
+nav {
+    width: 100%;
+    background-color: #3d0c6e; /* Dark violet background color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Use flexbox to center items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 60px; /* Adjust height as needed */
+    background-color: #4a1a85; /* Slightly lighter dark violet for contrast */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text color for contrast */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    font-size: 16px; /* Adjust font size as needed */
+    display: block;
+    padding: 15px; /* Add padding for better click area */
+}
+
+/* Hover effect with a lighter violet background */
+nav ul li a:hover {
+    background-color: #5e2a91; /* Lighter dark violet on hover */
+    color: #ffffff; /* Keep text color white on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Body and general page styles */
+body {
+    background-color: #e6e6e6; /* Light grey background color for the page */
+    color: #333333; /* Dark grey text color for general content */
+    font-family: Arial, sans-serif; /* Font family for the page */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3d0c6e; /* Dark violet for headings */
+}
+
+p {
+    color: #666666; /* Medium grey for paragraph text */
+}
+
+button {
+    background-color: #4a1a85; /* Dark violet button background */
+    color: #ffffff; /* White button text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5e2a91; /* Lighter dark violet on button hover */
+    color: #ffffff; /* White text color on button hover */
+}
+
+footer {
+   
